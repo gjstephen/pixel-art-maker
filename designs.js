@@ -1,6 +1,3 @@
-// Select color input
-// Select size input
-
 // Add event listener to submit button
 const submitBtn = document.querySelector('.submit-btn')
 const table = document.querySelector('#pixelCanvas')
@@ -19,6 +16,7 @@ submitBtn.addEventListener('click', function(event) {
 const heightInput = document.querySelector('#inputHeight')
 const widthInput = document.querySelector('#inputWidth')
 
+// create grid by looping through height and width selected
 function makeGrid() {
     let gridHeight = heightInput.value
     let gridWidth = widthInput.value
